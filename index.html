@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<!--
+  قالب صفحة هبوط عربية (RTL) — Sonoa Agency
+  Arabic RTL landing page template — clean HTML/CSS/JS, no frameworks.
+  غيّر النصوص والألوان من ملف css/style.css (متغيرات :root في الأعلى).
+-->
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="قالب صفحة هبوط عربية متجاوبة — جاهز للتخصيص لأي نشاط تجاري." />
+  <title>نمو — قالب صفحة هبوط عربية</title>
+
+  <!-- خط تاجوال من Google Fonts (خط عربي حديث وخفيف) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== الشريط العلوي ===== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a class="logo" href="#hero" aria-label="العودة للرئيسية">
+        <span class="logo-mark">ن</span>
+        <span class="logo-text">نمو</span>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="التنقل الرئيسي">
+        <a href="#features">المميزات</a>
+        <a href="#services">الخدمات</a>
+        <a href="#stats">أرقامنا</a>
+        <a href="#testimonials">آراء العملاء</a>
+        <a href="#contact" class="nav-cta">تواصل معنا</a>
+      </nav>
+
+      <!-- زر القائمة للموبايل -->
+      <button class="nav-toggle" id="navToggle" aria-label="فتح القائمة" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== قسم البطل (Hero) ===== -->
+    <section class="hero" id="hero">
+      <div class="container hero-inner">
+        <div class="hero-content reveal">
+          <p class="eyebrow">قالب عربي مجاني ومفتوح المصدر</p>
+          <h1>صفحة هبوط <span class="gold">عربية</span> تُقنع زائرك من أول نظرة</h1>
+          <p class="lead">
+            قالب نظيف وسريع مبني بـ HTML وCSS وJavaScript فقط — بدون أي مكتبات.
+            عدّل النصوص والألوان وأطلق صفحتك في دقائق.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">اطلب نسختك الآن</a>
+            <a href="#features" class="btn btn-ghost">شاهد المميزات</a>
+          </div>
+        </div>
+
+        <!-- بطاقة إحصائية عائمة كعنصر بصري للهيرو -->
+        <div class="hero-card reveal" aria-hidden="true">
+          <div class="hero-card-row"><span class="dot dot-green"></span> معدل التحويل <strong>12.4%</strong></div>
+          <div class="hero-card-row"><span class="dot dot-gold"></span> زيارات اليوم <strong>3,842</strong></div>
+          <div class="hero-card-bar"><span style="width: 78%"></span></div>
+          <div class="hero-card-note">+38% هذا الأسبوع</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== المميزات ===== -->
+    <section class="section" id="features">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>لماذا هذا القالب؟</h2>
+          <p>كل ما تحتاجه صفحة الهبوط الحديثة — ولا شيء زائد.</p>
+        </div>
+
+        <div class="grid grid-3">
+          <article class="card reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8z"/></svg>
+            </div>
+            <h3>سريع وخفيف</h3>
+            <p>بدون مكتبات خارجية ولا خطوط ثقيلة. صفحة واحدة تفتح في أقل من ثانية على الموبايل.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2" width="10" height="20" rx="2"/><line x1="11" y1="18" x2="13" y2="18"/></svg>
+            </div>
+            <h3>موبايل أولاً</h3>
+            <p>مصمم بمنهجية Mobile-First ويتجاوب مع كل الشاشات، مع دعم كامل للغة العربية واتجاه RTL.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="8.5" cy="10" r="1.2" fill="currentColor" stroke="none"/><circle cx="15.5" cy="10" r="1.2" fill="currentColor" stroke="none"/><circle cx="12" cy="15.5" r="1.2" fill="currentColor" stroke="none"/></svg>
+            </div>
+            <h3>سهل التخصيص</h3>
+            <p>الألوان والخطوط والمسافات معرّفة كمتغيرات CSS في مكان واحد — غيّر الهوية في دقيقة.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== الخدمات ===== -->
+    <section class="section section-dark" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>ماذا يتضمن؟</h2>
+          <p>أقسام جاهزة تغطي رحلة الزائر من أول click حتى التواصل.</p>
+        </div>
+
+        <div class="grid grid-2">
+          <div class="service reveal">
+            <h3>هيرو إقناعي</h3>
+            <p>عنوان واضح، نص مساعد، وزرّان لدعوة الإجراء — التركيبة المجرّبة لأعلى تحويل.</p>
+          </div>
+          <div class="service reveal">
+            <h3>شبكة مميزات وخدمات</h3>
+            <p>بطاقات مرنة بشبكة CSS Grid تتكيف من عمود واحد إلى ثلاثة أعمدة تلقائياً.</p>
+          </div>
+          <div class="service reveal">
+            <h3>عدّادات إحصائية</h3>
+            <p>أرقام تتحرك عند ظهورها على الشاشة لإبراز ثقتك بنتائجك (JavaScript نقي).</p>
+          </div>
+          <div class="service reveal">
+            <h3>نموذج تواصل</h3>
+            <p>نموذج مع تحقق فوري من المدخلات ورسائل خطأ عربية واضحة.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== الأرقام ===== -->
+    <section class="section" id="stats">
+      <div class="container">
+        <div class="stats-grid reveal-group">
+          <div class="stat reveal"><span class="stat-number" data-target="250">250</span><span class="stat-label">صفحة أُطلقت</span></div>
+          <div class="stat reveal"><span class="stat-number" data-target="98">98</span><span class="stat-label">% رضا العملاء</span></div>
+          <div class="stat reveal"><span class="stat-number" data-target="12">12</span><span class="stat-label">ثانية متوسط التحميل</span></div>
+          <div class="stat reveal"><span class="stat-number" data-target="40">40</span><span class="stat-label">+ نشاط تجاري</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== آراء العملاء ===== -->
+    <section class="section section-dark" id="testimonials">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>ماذا قالوا عنّا؟</h2>
+        </div>
+
+        <div class="grid grid-3">
+          <blockquote class="testimonial reveal">
+            <p>"غيّرنا القالب في يوم واحد وأطلقنا الحملة. النتيجة فاقت التوقع."</p>
+            <footer><strong>أحمد سمير</strong><span>صيدليات الهدى</span></footer>
+          </blockquote>
+          <blockquote class="testimonial reveal">
+            <p>"أخيراً قالب عربي حقيقي — الاتجاه والخطوط والتفاصيل كلها مضبوطة."</p>
+            <footer><strong>منى خالد</strong><span>متجر روز</span></footer>
+          </blockquote>
+          <blockquote class="testimonial reveal">
+            <p>"الكود نظيف ومعلّق بالعربي. فريقنا عدّل عليه بدون أي مساعدة خارجية."</p>
+            <footer><strong>كريم فؤاد</strong><span>شركة النيل للتطوير</span></footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== تواصل ===== -->
+    <section class="section" id="contact">
+      <div class="container contact-inner">
+        <div class="section-head reveal">
+          <h2>جاهز تبدأ؟</h2>
+          <p>املأ النموذج وسنعود إليك خلال يوم عمل واحد.</p>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="name">الاسم</label>
+              <input type="text" id="name" name="name" placeholder="اكتب اسمك" required minlength="3" />
+              <small class="field-error" data-error-for="name"></small>
+            </div>
+            <div class="form-field">
+              <label for="phone">رقم الهاتف</label>
+              <input type="tel" id="phone" name="phone" placeholder="01xxxxxxxxx" required pattern="[0-9+]{10,15}" />
+              <small class="field-error" data-error-for="phone"></small>
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="message">رسالتك</label>
+            <textarea id="message" name="message" rows="4" placeholder="حدثنا عن مشروعك" required minlength="10"></textarea>
+            <small class="field-error" data-error-for="message"></small>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">أرسل الطلب</button>
+          <p class="form-success" id="formSuccess" hidden>تم استلام طلبك بنجاح — سنتواصل معك قريباً ✓</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== الفوتر ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> نمو — قالب مفتوح المصدر من <a href="https://sonoa.online" rel="noopener">Sonoa Agency</a></p>
+      <div class="footer-links">
+        <a href="#hero">الرئيسية</a>
+        <a href="#services">الخدمات</a>
+        <a href="#contact">تواصل</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
